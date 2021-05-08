@@ -13,6 +13,6 @@ if  __name__  ==  "__main__":
         msg = String()
         msg.data = "Hi, this is Sean from the Robot News Radio"
         pub.publish(msg)
-        rate.sleep
+        rate.sleep()
 
     rospy.loginfo("Node was stopped")
