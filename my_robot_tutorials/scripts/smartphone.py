@@ -10,7 +10,7 @@ def callback_receive_radio_data(msg):
 
 
 if __name__=="__main__":
-    rospy.init_node("smartphone_node")
+    rospy.init_node("smartphone")
 
     sub = rospy.Subscriber("/robot_news_radio", String, callback_receive_radio_data)
 
